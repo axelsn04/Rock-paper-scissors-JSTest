@@ -1,0 +1,42 @@
+button {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:nth-child(1) {
+    background-color: #ff9999;
+    border-color: #cc0000;
+}
+
+button:nth-child(2) {
+    background-color: #99ccff;
+    border-color: #0066cc;
+}
+
+button:nth-child(3) {
+    background-color: #99ff99;
+    border-color: #009900;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
